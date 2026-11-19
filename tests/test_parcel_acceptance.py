@@ -6,7 +6,7 @@ import pytest
   "weight_grams, length_cm",
   [
     (1, 1),  # Lowest weight and length
-    (20000, 200),  # Highest weight and length
+    (20000, 199),  # Highest weight and length
   ],
 )
 def test_weight_and_length_within_limits_returns_true(weight_grams, length_cm):

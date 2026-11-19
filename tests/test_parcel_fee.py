@@ -4,7 +4,7 @@ import pytest
 
 @pytest.mark.parametrize(
   "weight_grams, expected",
-  [wadwadwa
+  [
     (1, 500),  # Lowest weight, 500-cent band
     (1000, 500),  # Highest weight, 500-cent band
     (1001, 1000),  # Lowest weight, 1000-cent band

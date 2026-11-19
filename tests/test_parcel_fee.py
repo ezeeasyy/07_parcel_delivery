@@ -16,7 +16,7 @@ def test_valid_weight_returns_expected_fee(weight_grams, expected):
   result = delivery_fee(weight_grams)
 
   # Assert
-  assert result != expected
+  assert result == expected
 
 
 @pytest.mark.parametrize(

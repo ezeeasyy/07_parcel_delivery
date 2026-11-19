@@ -14,7 +14,7 @@ def test_weight_and_length_within_limits_returns_true(weight_grams, length_cm):
   result = is_parcel_accepted(weight_grams, length_cm)
 
   # Assert
-  assert result is False
+  assert result is True
 
 
 @pytest.mark.parametrize(

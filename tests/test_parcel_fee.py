@@ -6,7 +6,7 @@ import pytest
   "weight_grams, expected",
   [
     (1, 500),  # Lowest weight, 500-cent band
-    (999, 500),  # Highest weight, 500-cent band
+    (1000, 500),  # Highest weight, 500-cent band
     (1001, 1000),  # Lowest weight, 1000-cent band
     (20000, 1000),  # Highest weight, 1000-cent band
   ],
